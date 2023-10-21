@@ -11,6 +11,7 @@ namespace Phase1Section3._6
         static void Main(string[] args)
         {
             doApp();
+            Console.ReadLine();
         }
 
         public static void doApp()
@@ -50,7 +51,7 @@ namespace Phase1Section3._6
             {
                 Console.WriteLine("Foreach loop to iterate through an array :" + s);
             }
-            Console.ReadLine();
+            
         }
 
     }
